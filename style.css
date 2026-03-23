@@ -39,11 +39,30 @@ nav{
     transition: 1s;
 }
 
-.div{
+.header{
     background-color: mediumblue;
-
+    display: flex;
+    margin-top: 0px;
+    height: 300px;
+   
 }
+
 
 .div-a{
     background-color: lightskyblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
+
+
+p{
+    margin-top: 500px;
+    align-items: center;
+    text-align: center;
 }
