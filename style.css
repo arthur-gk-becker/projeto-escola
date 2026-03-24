@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-size: 20px;
 }
+
 
 body{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -44,25 +47,138 @@ nav{
     display: flex;
     margin-top: 0px;
     height: 300px;
+    text-align: center;
+    align-items: center;
    
 }
 
 
 .div-a{
     background-color: lightskyblue;
-    text-align: center;
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+    text-align: center;
+    width: 100%;
 }
 
 h1{
-    text-align: center;
-    align-items: center;
+   margin: 0;
+   font-size: 40px;
 }
 
 
 p{
-    margin-top: 500px;
+    margin-top: 25px;
+    max-width: 700px;
+}
+
+.lista-def{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: left; 
+    text-align: left;
+    margin-top: 70px;
+
+}
+dd{
+    max-width: 30%;
+}
+
+.button-a{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    height: 40px;
+}
+
+button{
+    background-color: mediumblue;
+    color: white;
+    border-radius: 20px;
+}
+
+.link-m{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer{
+    background-color: lightskyblue;
+    padding-top: 50px;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.ul-b{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.h1-2{
+    font-size: 35px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  flex-direction: row;
+}
+
+.grid img {
+  width: 70%;       
+  height: 280px;     
+  object-fit: cover; 
+  border-radius: 10px; 
+  flex-direction: row;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+}
+.footer-m{
+    padding-top: 10px;
+    height: 100px;
+}
+
+.footer-i{
+    padding-top: 20px;
+    height: 222px;
+}
+
+.footer-c{
+    height: 201px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.li-1{
+    justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 30px;
+}
+
+.ul-c{
+    text-align: center;
+    padding-top: 20px;
 }
